@@ -1,0 +1,73 @@
+name: doctors
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http:
+  flutter_html: ^3.0.0-alpha.3
+  html: 
+  shared_preferences: ^2.0.8
+  intl: ^0.17.0
+  path_provider: ^2.0.5
+  flutter_spinkit:  # updated from ^5.0.
+  sqflite: ^2.1.1 # updated from ^2.0.
+  file_picker: 
+  font_awesome_flutter: 
+  flutter_slidable:
+  email_validator:
+  fluttertoast:
+  url_launcher:
+  splash_screen_view:
+  page_transition:
+  custom_searchable_dropdown:
+  dropdown_search:
+  glass_kit:
+  awesome_dialog:
+  liquid_progress_indicator:
+  glassmorphism: ^3.0.0
+  chart_components: ^1.0.1
+  pdf: ^3.6.0
+  open_file: ^3.2.1
+  # image_picker:
+  device_info_plus: ^3.2.3
+  flutter_secure_storage: ^5.0.2
+  syncfusion_flutter_calendar:
+  flutter_snake_navigationbar: ^0.6.1
+  get: ^4.6.5
+  provider: ^6.0.5
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  animate_do: ^3.0.2
+  sqflite_common: any
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.5
+  sqflite_common_ffi: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: font/Helvetica.ttf
+    - family: NizarBBCKurdish
+      fonts:
+        - asset: font/NizarBBCKurdish-Regular.ttf
